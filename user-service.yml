@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    url : jdbc:mariadb://localhost:33601/mydb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 1q2w3e4r5t
+
+gateway:
+  ip: 192.168.0.206
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
