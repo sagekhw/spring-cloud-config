@@ -16,10 +16,3 @@ spring:
     username: root
     password: 1q2w3e4r5t
 
-# gateway:
-#  ip: 192.168.0.206
-
-order_service:
-  # url: http://ORDER-SERVICE/order-service/%s/orders
-  exception: 
-    orders_is_empty: There is no item.
