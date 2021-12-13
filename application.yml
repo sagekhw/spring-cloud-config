@@ -3,4 +3,4 @@ token:
   secret: my_token_changed#4
 
 gateway:
- ip: 192.168.0.206  
+ ip: 172.18.0.5
