@@ -11,7 +11,7 @@ spring:
     show-sql: true
     generate-ddl: true
   datasource:
-    url : jdbc:mariadb://ftsame.duckdns.org:33601/meligoDB
+    url : jdbc:mariadb://mariadb:33601/meligoDB
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: 1q2w3e4r5t
